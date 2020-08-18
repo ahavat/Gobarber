@@ -25,6 +25,7 @@
   "rules": {
     "react/prop-type": "off",
     "react/jsx-props-no-spreading": "off",
+    "no-unused-expressions": "off",
     "react/jsx-one-expression-per-line": "off",
     "import/prefer-default-export": "off",
     "@typescript-eslint/explicit-function-return-type": [
