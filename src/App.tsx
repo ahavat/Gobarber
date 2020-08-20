@@ -4,9 +4,13 @@ import GlobalStyle from './styles/global';
 // import SignUP from './pages/SignUp/index';
 import SignIn from './pages/Signin';
 
+import { AuthProvider } from './context/AuthContext';
+
 const App: React.FC = () => (
   <>
-    <SignIn />
+    <AuthProvider>
+      <SignIn />
+    </AuthProvider>
     <GlobalStyle />
   </>
 );
